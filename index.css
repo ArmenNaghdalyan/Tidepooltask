@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+.overWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.background {
+  height: 700px;
+  width: 100%;
+  position: absolute;
+}
+
+.logo {
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  display: grid;
+}
+
+.logoWrapper {
+  position: absolute;
+  height: 40px;
+  width: 225px;
+  left: 62px;
+  top: 18px;
+}
+
+.buttons {
+  position: absolute;
+  height: 40px;
+  width: 225px;
+  left: 1100px;
+  top: 30px;
+}
+
+.navButton {
+  width: 40px;
+  height: 22px;
+  font-family: "Graphik";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.firstParagraph {
+  position: absolute;
+  left: 63px;
+  top: 352px;
+  font-family: "NEXT Pan Book";
+  font-weight: 300;
+  font-size: 72px;
+  color: #ffffff;
+}
+
+.secondParagraph {
+  position: absolute;
+  left: 63px;
+  top: 538px;
+  font-family: "NEXT Pan Book";
+  font-weight: 300;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.vector {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 1092px;
+  top: 575px;
+}
+
+.firstPart {
+  position: absolute;
+}
+
+.portfolioLink {
+  position: absolute;
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute;
+  left: 0%;
+  right: 88.44%;
+  top: 3.35%;
+  bottom: 86.19%;
+}
