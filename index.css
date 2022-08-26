@@ -3,30 +3,13 @@
   padding: 0;
 }
 
-.overWrapper {
-  display: flex;
-  flex-direction: row;
-}
-
-header {
-  width: 100%;
-  position: relative;
-}
-
 .background {
   height: 700px;
   width: 100%;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .logo {
-  height: 100px;
-  width: 100%;
-  position: absolute;
-  display: grid;
-}
-
-.logoWrapper {
   position: absolute;
   height: 40px;
   width: 225px;
@@ -36,10 +19,17 @@ header {
 
 .buttons {
   position: absolute;
-  height: 40px;
-  width: 225px;
-  left: 1100px;
-  top: 30px;
+  top: 35px;
+  right: 69px;
+}
+
+.buttons a {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
 }
 
 .navButton {
@@ -70,27 +60,80 @@ header {
   color: #ffffff;
 }
 
+.textOrange {
+  color: rgb(239, 123, 81);
+}
+
 .vector {
   position: absolute;
   width: 45px;
   height: 45px;
-  left: 1092px;
+  right: 63px;
   top: 575px;
 }
 
-.firstPart {
-  position: absolute;
+.intro {
+  margin: 64px 0 16px 0;
+  max-width: 614px;
+  width: 100%;
 }
 
-.portfolioLink {
-  position: absolute;
+.title {
+  color: #f77a5a;
+  border-top: 1px solid #f77a5a;
+  width: max-content;
+  padding-top: 8px;
+}
+
+.portfolio-founders {
+  font-family: "NEXT Pan Book";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+  color: #4a4a4a;
+  padding-top: 16px;
+}
+
+.portfolio-right-img {
+  margin-left: 26px;
+  margin-bottom: 30px;
+}
+
+.intro-text {
+  color: #858585;
   font-family: "Graphik";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  position: absolute;
-  left: 0%;
-  right: 88.44%;
-  top: 3.35%;
-  bottom: 86.19%;
+  line-height: 140%;
+  margin-bottom: 30px;
+  /* padding-top: 16px; */
+}
+
+.portfolio-img {
+  margin-bottom: 27px;
+}
+
+.text-row {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}
+
+.visitBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 10px;
+  width: 168px;
+  height: 34px;
+  background: linear-gradient(118.59deg, #ef4e40 0%, #f77a5a 100%);
+  border-radius: 40px;
+  border: 0;
+  color: white;
+  margin: auto;
+  margin-top: 33px;
 }
